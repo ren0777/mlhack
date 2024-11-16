@@ -9,7 +9,7 @@ Original file is located at
 
 import pandas as pd
 
-file_path = "/content/campaign_performance_large.csv"
+file_path = "https://github.com/ren0777/mlhack/blob/main/campaign_performance_large.csv"
 df = pd.read_csv(file_path)
 
 print(df.head())
